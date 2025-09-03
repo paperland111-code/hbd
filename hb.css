@@ -1,0 +1,158 @@
+body{perspective: 600px; background-color: #424241}
+
+.baloun{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    float: left;
+    left: 10px;
+    position: relative;
+    border-top-left-radius: 65%;
+    border-top-right-radius: 65%;
+    border-bottom-right-radius: 65%;
+    transform: rotate(-45deg);
+    animation: down 5s 1 linear alternate-reverse;
+}
+
+.nlu{
+    background-color: #F00;
+    margin-top: 70px
+}
+
+.slu{
+    background-color: #ffdd05;
+    margin-top: 60px
+}
+
+.glu{
+    background-color: #0563bf;
+    margin-top: 50px
+}
+.dlu{
+    background-color: #d8c6c6;
+    margin-top: 40px
+}
+.klu{
+    background-color: #F00;
+    margin-top: 70px
+}
+.flu{
+    background-color: #9e6884;
+    margin-top: 20px
+}
+.blu{
+    background-color: #fafb04;
+    margin-top: 30px
+}
+.clu{
+    background-color: #a2c191;
+    margin-top: 40px
+}
+.new{
+    background-color: #7b2b67;
+    margin: 50px 10px auto auto
+}
+
+@keyframes down {
+
+    0%{ 
+        top: 10px;
+        left: 10px
+}
+    50%{
+        top: 250px;
+        left: 50px
+}
+    100%{
+        top: 500px;
+        left: 20px
+}
+}
+
+p{
+
+    font-size: 100px;
+    letter-spacing: 40px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    animation: down 5s 1 linear alternate-reverse;
+}
+.gift{
+    width: 200px;
+    height: 100px;
+    left: 40%;
+    top: 10px;
+    border: 5px dashed ;
+    border-radius: 5%;
+    background-color: #8c4646;
+    display: inline-block;
+    position: absolute;
+}
+section{
+    position: absolute;
+    animation: gifted 2s 1 linear;
+}
+
+.fir{
+    height: 75px;
+    transform: rotateY(0deg);
+    z-index: 5;
+    left: 540px;
+    top: 60px
+}
+
+.sec{
+    height: 65px;
+    transform: rotateY(75deg);
+    z-index: 4;
+    left: 485px;
+    top: 30px
+}
+
+.thi{
+    height: 70px;
+    transform: rotateY(60deg);
+    z-index: 3;
+    left: 685px;
+    top: 30px
+}
+
+.fou{
+    width: 195px;
+    height: 50px;
+    transform: rotateY(175deg);
+    z-index: 2;
+    left: 615px;
+    top: 10px
+}
+
+@keyframes gifted {
+
+    0%{ 
+        top: 0px;
+        
+}
+    50%{
+        top: 250px;
+}
+    100%{
+        top: 500px;
+
+}
+}
+
+@keyframes swing {
+
+    0%{ 
+       left: 1px;
+        
+}
+    50%{
+        left: 5px;
+}
+    100%{
+        left: 8px;
+
+}
+}
